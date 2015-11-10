@@ -1,5 +1,6 @@
 *.js
 !lib/*
 !lib/utils/*
+!bin/*
 node_modules
 *.log

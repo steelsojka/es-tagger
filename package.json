@@ -1,11 +1,11 @@
 {
-  "name": "estags",
+  "name": "es-tagger",
   "version": "1.0.0",
-  "description": "Generate tags for Javascript using babel",
+  "description": "Generate tags for modern Javascript using babel",
   "repository": "https://github.com/steelsojka/estags",
   "main": "index.js",
   "bin": {
-    "estags": "./bin/estags.js"
+    "estagger": "./bin/estagger.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

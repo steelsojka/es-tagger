@@ -1,4 +1,4 @@
-estags
+es-tagger
 ======
 
 Generate tags for modern Javascript using babel.
@@ -7,7 +7,7 @@ Install
 -------
 
 ```shell
-npm install -g estags
+npm install -g es-tagger
 ```
 
 Useage
@@ -16,7 +16,7 @@ Useage
 ### CLI
 
 ```
-estags --file tags "src/**/*.js"
+estagger --output tags "src/**/*.js"
 ```
 
 #### Options
@@ -40,9 +40,11 @@ Options:
 ### API
 
 ```
-var parser = require('estags');
+var parser = require('es-tagger');
 
-var tags = parser(__dirname + '/**/*.js');
+var tags = parser(__dirname + '/**/*.js', {
+  silent: true
+});
 
 tags.join('\n');
 ```
