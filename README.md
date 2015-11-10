@@ -1,12 +1,7 @@
 estags
 ======
 
-Generate tags for Javascript using babel.
-
-Goal
-----
-
-Generate tag files for modern (ES2015) Javascript to improve tooling.
+Generate tags for modern Javascript using babel.
 
 Install
 -------
