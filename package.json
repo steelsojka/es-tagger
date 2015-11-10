@@ -1,0 +1,29 @@
+{
+  "name": "estags",
+  "version": "1.0.0",
+  "description": "Generate tags for Javascript using babel",
+  "repository": "https://github.com/steelsojka/estags",
+  "main": "index.js",
+  "bin": {
+    "estags": "./bin/estags.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel lib -d ./",
+    "build:watch": "watch \"npm run build\" ./lib"
+  },
+  "author": "Steven Sojka (http://steelsojka.github.io)",
+  "license": "MIT",
+  "dependencies": {
+    "babylon": "^6.1.2",
+    "glob": "^5.0.15",
+    "yargs": "^3.29.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.1.2",
+    "babel-core": "^6.1.2",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.1.3",
+    "babel-preset-es2015": "^6.1.2",
+    "watch": "^0.16.0"
+  }
+}
