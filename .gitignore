@@ -2,5 +2,6 @@
 !lib/*
 !lib/utils/*
 !bin/*
+!scripts/*
 node_modules
 *.log
